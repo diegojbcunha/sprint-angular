@@ -22,7 +22,7 @@ Uma aplicação moderna de dashboard Angular para gerenciamento de veículos For
 - [Autenticação](#autenticação)
 - [Endpoints da API](#endpoints-da-api)
 - [Componentes](#componentes)
-- [Observações](#obersações)
+- [Observações](#observações)
 
 ## Funcionalidades
 
