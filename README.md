@@ -244,5 +244,3 @@ Este projeto está licenciado sob a Licença MIT.
 Este projeto foi desenvolvido com fins educacionais, com base na proposta da empresa FORD fornecida pela Instituição.
 
 ---
-
-**Construído com ❤️ usando Angular 19 e Node.js**
