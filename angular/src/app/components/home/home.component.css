@@ -1,0 +1,100 @@
+/* Home Component Styles - Menu Sidebar */
+
+.sidebar {
+  position: fixed !important;
+  left: 0;
+  top: 0;
+  width: 250px;
+  min-height: 100vh;
+  background-color: var(--primary-dark);
+  color: var(--white);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  z-index: 1000;
+}
+
+.sidebar-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar-logo img {
+  max-width: 80px;
+  height: auto;
+}
+
+.sidebar-header {
+  margin-bottom: 20px;
+}
+
+.sidebar-header h3 {
+  margin: 0;
+  color: var(--white);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu li {
+  margin-bottom: 10px;
+}
+
+.sidebar-menu a {
+  color: var(--light-gray);
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.sidebar-menu a:hover {
+  background-color: var(--secondary-dark);
+  color: var(--white);
+  transform: translateX(5px);
+}
+
+.sidebar-menu a.active {
+  background-color: var(--accent-blue);
+  color: var(--white);
+}
+
+/* Main content styling */
+main.flex-grow-1 {
+  margin-left: 250px;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+/* Hide sidebar on small screens and adjust main content */
+@media (max-width: 768px) {
+  .sidebar {
+    position: relative !important;
+    width: 100% !important;
+    min-height: auto !important;
+  }
+
+  main.flex-grow-1 {
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .card-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  main.flex-grow-1 {
+    padding: 10px;
+  }
+}

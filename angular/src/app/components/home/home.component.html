@@ -1,0 +1,42 @@
+<div class="container-fluid min-vh-100 d-flex">
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="sidebar-logo text-center mb-4">
+      <img src="/img/ford.png" alt="Ford Logo" class="img-fluid" style="max-width: 80px;">
+    </div>
+    <div class="sidebar-header">
+      <h3>Menu</h3>
+    </div>
+    <ul class="sidebar-menu">
+      <li><a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
+      <li><a routerLink="/dashboard" routerLinkActive="active">Dashboard</a></li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <main class="flex-grow-1">
+    <!-- Header -->
+    <div class="header d-flex justify-content-between align-items-center">
+      <h1>Sistema FORD</h1>
+      <div class="header-buttons">
+        <button class="btn btn-outline-danger" (click)="logout()">
+          <i class="fas fa-sign-out-alt me-2"></i>Logout
+        </button>
+      </div>
+    </div>
+
+    <div class="main-content-wrapper">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card text-center">
+            <div class="card-body">
+              <div class="mb-4">
+                <img src="/img/mustang.png" alt="Ford Mustang" class="img-fluid rounded" style="max-height: 400px; object-fit: cover;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
