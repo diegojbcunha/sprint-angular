@@ -2,6 +2,15 @@
 
 Uma aplicação moderna de dashboard Angular para gerenciamento de veículos Ford com autenticação e visualização de dados em tempo real.
 
+<img width="1920" height="1080" alt="Captura de tela 2025-09-29 161949" src="https://github.com/user-attachments/assets/8bf9dc89-2957-4f30-a549-061fb65ca43a" />
+<img width="1920" height="1080" alt="Captura de tela 2025-09-29 162415" src="https://github.com/user-attachments/assets/a8ea91ef-fb08-4a5c-a4d3-f650bcd4023d" />
+<img width="1920" height="1080" alt="Captura de tela 2025-09-29 162429" src="https://github.com/user-attachments/assets/1c6a1b6d-fcb6-4cc5-8966-884715bc02f6" />
+<img width="1920" height="1080" alt="Captura de tela 2025-09-29 162441" src="https://github.com/user-attachments/assets/cf022109-2480-41c5-8a0d-a7a932800ca8" />
+<img width="1920" height="1080" alt="Captura de tela 2025-09-29 162452" src="https://github.com/user-attachments/assets/fce5750e-f537-49fb-a9a5-b12191cda3ff" />
+<img width="1920" height="1080" alt="Captura de tela 2025-09-29 162505" src="https://github.com/user-attachments/assets/5e02af08-2c68-4b1c-80fb-57ebc5b26360" />
+<img width="1920" height="1080" alt="Captura de tela 2025-09-29 162513" src="https://github.com/user-attachments/assets/7346ba2d-6dfd-44bd-b722-9b0277b9abcb" />
+<img width="1920" height="1080" alt="Captura de tela 2025-09-29 162520" src="https://github.com/user-attachments/assets/9feba12f-16b4-4f40-b42a-eb567093e120" />
+
 ## Índice
 
 - [Funcionalidades](#funcionalidades)
@@ -14,7 +23,7 @@ Uma aplicação moderna de dashboard Angular para gerenciamento de veículos For
 - [Endpoints da API](#endpoints-da-api)
 - [Componentes](#componentes)
 - [Desenvolvimento](#desenvolvimento)
-- [Contribuindo](#contribuindo)
+- [Observações](#obersações)
 
 ## Funcionalidades
 
@@ -228,15 +237,11 @@ Este projeto está licenciado sob a Licença MIT.
 
 ## Autores
 
-- **Equipe de Desenvolvimento** - Projeto Ford Dashboard
+- **Diego Cunha**
 
-## Problemas Conhecidos
+## Observações
 
-- Nenhum relatado atualmente
-
-## Suporte
-
-Para suporte e questões, entre em contato com a equipe de desenvolvimento.
+Este projeto foi desenvolvido com fins educacionais, com base na proposta da empresa FORD fornecida pela Instituição.
 
 ---
 
