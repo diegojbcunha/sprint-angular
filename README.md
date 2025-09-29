@@ -22,7 +22,6 @@ Uma aplicação moderna de dashboard Angular para gerenciamento de veículos For
 - [Autenticação](#autenticação)
 - [Endpoints da API](#endpoints-da-api)
 - [Componentes](#componentes)
-- [Desenvolvimento](#desenvolvimento)
 - [Observações](#obersações)
 
 ## Funcionalidades
@@ -234,10 +233,6 @@ ng lint
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT.
-
-## Autores
-
-- **Diego Cunha**
 
 ## Observações
 
